@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "UnitTest": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "Environment": "Development"
+      }
+    }
+  }
+}

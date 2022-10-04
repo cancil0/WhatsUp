@@ -1,0 +1,39 @@
+{
+  "Core": {
+    "Jwt": {
+      "TokenNotFound": "Token Not Found",
+      "ExpiredToken": "Expired Token",
+      "InvalidToken": "Invalid Token"
+    },
+    "HttpStatus": {
+      "Success": "Success",
+      "NotAllowed": "Not Allowed",
+      "BadRequest": "Bad Request",
+      "NotFound": "Not Found",
+      "InternalServerError": "Something went wrong",
+      "Unauthorized": "Unauthorized"
+    },
+    "Entity": {
+      "NotFound": "Entity not found with given key. Key: {0}",
+      "AllNotFound": "Entities not found"
+    },
+    "Autofac": {
+      "AutofacGenericSystemNotFound": "Generic system type can not be null. Type: {0}",
+      "GenericTypeMustBeInterface": "Generic type must be interface. Type: {0}"
+    },
+    "Logging": {
+      "ServiceFinished": "Service is finished: {0}",
+      "HttpServiceFinished": "{0} ms elapsed."
+    },
+    "Localization": {
+      "KeyCanNotBeNull": "Key can not be null.",
+      "KeyNotFound": "Key not found: {0}",
+      "KeyIsNull": "Key which will be translated is null."
+    }
+  },
+  "DataAccess": {
+    "MessageDal": {
+      "ChatNotFound": "Chat not found between {0} and {1}."
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "Core": {
+    "Jwt": {
+      "TokenNotFound": "Token bulunamadı",
+      "ExpiredToken": "Süresi geçmiş Token",
+      "InvalidToken": "Geçersiz Token"
+    },
+    "HttpStatus": {
+      "Success": "Başarılı",
+      "NotAllowed": "Gerekli izinlere sahip değil",
+      "BadRequest": "Eksik istek",
+      "NotFound": "Bulunamadı",
+      "InternalServerError": "Bir sorunla karşılaşıldı",
+      "Unauthorized": "Yetki bulunamadı"
+    },
+    "Entity": {
+      "NotFound": "Verilen bilgiyle veri bulunamadı. Key: {0}",
+      "AllNotFound": "Veri bulunamadı"
+    },
+    "System": {
+      "AutofacGenericSystemNotFound": "Generic sistem tipi null. Tip: {0}",
+      "GenericTypeMustBeInterface": "Generic tip interface olmalı. Tip: {0}"
+    },
+    "Logging": {
+      "ServiceStarted": "Servis çağrıldı: {0}",
+      "ServiceFinished": "Servisten çıkıldı: {0}",
+      "HttpServiceFinished": "{0} ms sürdü."
+    },
+    "Localization": {
+      "KeyCanNotBeNull": "Key boş olamaz.",
+      "KeyNotFound": "Key bulunamadı: {0}",
+      "KeyIsNull": "Çevrilecek Key bulunamadı."
+    }
+  },
+  "DataAccess": {
+    "MessageDal": {
+      "ChatNotFound": "{0} ile {1} arasındaki konuşma bulunamadı."
+    }
+  }
+}

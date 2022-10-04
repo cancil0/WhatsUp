@@ -1,0 +1,22 @@
+{
+  "ConnectionStrings": {
+    "Connection": "User ID=postgres;Password=123456;Server=localhost;Port=5432;Database=WhatsUp;Integrated Security=true;Pooling=true;Include Error Detail=true"
+  },
+  "Logging": {
+    "LogToApiLogTable": "false"
+  },
+  "Context": {
+    "EnableSensitiveDataLogging": "true",
+    "EnableServiceProviderCaching": "true",
+    "UseLazyLoading": "true",
+    "CommandTimeOut": "5"
+  },
+  "Exceptions": {
+    "ThrowException": {
+      "NotFoundResourceKey": "false"
+    }
+  },
+  "JwtSettings": {
+    "Secret": "asud7eju39vkflphpoycfcs947as..215!!jhsnzzxsfcvfdghsadmcoiasdlkbmfdb45"
+  }
+}
